@@ -1,0 +1,3 @@
+//////////////////////////// for import db or table in mysql or phpmyadmin
+
+mysql -u root -pleooffice fractalupgrade < /home/akshat/Downloads/fractalupgrade.sql
