@@ -9,4 +9,27 @@ mysql -u root -pleooffice fractalupgrade < /home/akshat/Downloads/fractalupgrade
 
 
 
-///////////////////////////
+/////////////////////////// for update your system
+
+sudo apt update
+[sudo] password for {{root}}:  {{type your password and enter}} 
+
+
+
+/////////////////////////// for upgrade your system
+
+sudo apt upgrade
+
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+The following packages will be upgraded:
+  google-chrome-stable
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 92.3 MB of archives.
+After this operation, 440 kB of additional disk space will be used.
+Do you want to continue? [Y/n]    {{press y }}
+
+
+/////////////////////////// for
