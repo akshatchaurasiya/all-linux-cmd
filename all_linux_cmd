@@ -70,4 +70,21 @@ gsettings reset org.gnome.desktop.interface text-scaling-factor
 
 
 
+/////////////////////////// for Control your screen brightness using cmd
+
+// for check your display/ monitor name
+xrandr | grep " connected" | cut -f1 -d " "
+
+Syntex:-
+xrandr --output [monitor-name] --brightness [brightness-level]
+
+Cmd:-
+xrandr --output LVDS-1 --brightness 0.75
+
+
+
+
+
+
+
 /////////////////////////// for 
