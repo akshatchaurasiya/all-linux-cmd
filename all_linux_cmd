@@ -3,9 +3,9 @@
 syntex:-
 mysql -u {user_name} -p{password} {database_name} < /{file name with full path} 
 
-
 cmd:-
 mysql -u root -pleooffice fractalupgrade < /home/akshat/Downloads/fractalupgrade.sql
+
 
 
 
@@ -13,6 +13,7 @@ mysql -u root -pleooffice fractalupgrade < /home/akshat/Downloads/fractalupgrade
 
 sudo apt update
 [sudo] password for {{root}}:  {{type your password and enter}} 
+
 
 
 
@@ -32,4 +33,41 @@ After this operation, 440 kB of additional disk space will be used.
 Do you want to continue? [Y/n]    {{press y }}
 
 
-/////////////////////////// for
+
+
+
+/////////////////////////// for Launch Brightness Controller Application
+
+sudo add-apt-repository ppa:apandada1/brightness-controller
+sudo apt update
+sudo apt install brightness-controller
+
+
+
+
+/////////////////////////// for clean screen
+clear
+
+
+
+
+
+/////////////////////////// for text size 
+
+// for increase/ decrease text size
+gsettings set org.gnome.desktop.interface text-scaling-factor 1.5
+
+// for check what is your current text size
+gsettings get org.gnome.desktop.interface text-scaling-factor
+
+// for reset/ set by default your text size
+gsettings reset org.gnome.desktop.interface text-scaling-factor
+
+
+
+
+
+
+
+
+/////////////////////////// for 
