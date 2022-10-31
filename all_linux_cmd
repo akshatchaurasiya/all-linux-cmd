@@ -1,10 +1,26 @@
 //////////////////////////// for import db or table in mysql or phpmyadmin
 
 syntex:-
-mysql -u {user_name} -p{password} {database_name} < /{file name with full path} 
+mysql -u {user_name} -p{password} {database_name/ table_name} < /{file name with full path} 
 
 cmd:-
 mysql -u root -pleooffice fractalupgrade < /home/akshat/Downloads/fractalupgrade.sql
+
+
+
+
+
+
+//////////////////////////// for export db or table in mysql or phpmyadmin
+
+syntex:-
+mysql -u {user_name -p {database_name/ table_name} > /{file_name with full path (where you want to download this DB and with name)}
+
+cmd:-
+mysql -u Root -p educe-dev > /home/akshat/Downloads/educenewDB.sql
+
+
+
 
 
 
