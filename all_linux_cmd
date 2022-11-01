@@ -103,4 +103,16 @@ xrandr --output LVDS-1 --brightness 0.75
 
 
 
-/////////////////////////// for 
+/////////////////////////// for install or remove system setting
+
+sudo apt-get remove unity-control-center // for remove
+sudo apt-get install unity-control-center // for install
+
+
+
+
+
+
+
+
+/////////////////////////// for
