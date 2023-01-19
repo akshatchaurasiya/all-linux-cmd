@@ -6,8 +6,6 @@ mysql -u {user_name} -p{password} {database_name/ table_name} < /{file name with
 cmd:-
 mysql -u root -pleooffice fractalupgrade < /home/akshat/Downloads/fractalupgrade.sql
 
-mysqldump -u root -p moodle4 > moodle4.sql
-
 
 
 
@@ -20,6 +18,8 @@ mysql -u {user_name -p {database_name/ table_name} > /{file_name with full path 
 
 cmd:-
 mysql -u Root -p educe-dev > /home/akshat/Downloads/educenewDB.sql
+
+mysqldump -u root -p moodle4 > moodle4.sql
 
 
 
