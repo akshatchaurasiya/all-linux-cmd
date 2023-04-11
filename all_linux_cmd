@@ -138,6 +138,9 @@ git clone -b {branch_name} {path/ url} {file_name}
 example:-
 git clone -b dev https://gitlab.eabyas.in/infoeAbyas/educe.git educe_dev2
 
+git config --global http.sslVerify false
+
+
 
 
 
