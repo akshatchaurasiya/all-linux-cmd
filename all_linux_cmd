@@ -126,6 +126,15 @@ sudo apt install libreoffice
 
 
 
+////////////////////////// for get system (BIOS) start date
+
+sudo dmidecode -s bios-release-date
+
+
+
+
+
+
 
 
 
