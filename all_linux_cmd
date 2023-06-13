@@ -136,6 +136,13 @@ sudo dmidecode -s bios-release-date
 
 
 
+///////////////////////// for run cron in cmd
+
+{{file_path}} php admin/cli/cron.php (open in main file)
+akshat/var/www/html/educe$ php admin/cli/cron.php
+
+
+
 
 
 
