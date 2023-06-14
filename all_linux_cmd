@@ -161,3 +161,7 @@ git config --global http.sslVerify false
 
 
 docker run honeygain/honeygain -tou-accept -email abc@email.com -pass xyz@123 -device akshat
+docker run --restart unless-stopped honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
+docker run -d honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
+docker run -d --restart unless-stopped honeygain/honeygain -tou-accept -email ACCOUNT_EMAIL -pass ACCOUNT_PASSWORD -device DEVICE_NAME
+
