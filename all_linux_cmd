@@ -143,6 +143,19 @@ sudo dmidecode -s bios-release-date
 
 
 
+
+
+
+//////////////////////////// for change parmission dir
+
+sudo chmod -R 777 /var/www/html/tafe41/
+
+
+
+
+
+
+
 ///////////////////////// for run cron in cmd
 
 {{file_path}} php admin/cli/cron.php (open in main file)
