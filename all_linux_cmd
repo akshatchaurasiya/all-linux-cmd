@@ -7,6 +7,13 @@ cmd:-
 mysql -u root -pleooffice fractalupgrade < /home/akshat/Downloads/fractalupgrade.sql
 
 
+akshat@administrator-Vostro-3800:~$ sudo mysql -u root -p
+mysql> show databases;
+mysql> use tafe;
+mysql> source /home/akshat/Downloads/tafe41_cmd.sql
+
+
+
 
 
 
