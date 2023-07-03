@@ -176,6 +176,10 @@ git clone -b dev https://gitlab.eabyas.in/infoeAbyas/educe.git educe_dev2
 
 git config --global http.sslVerify false
 
+git config --global user.email "akshat.chaurasiya@moodle.com"
+git config --global user.name "Akshat Chaurasiya"
+
+
 
 
 
