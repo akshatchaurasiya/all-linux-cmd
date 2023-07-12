@@ -74,6 +74,10 @@ sudo apt install brightness-controller
 clear
 
 
+///////////////////////// for install system setting (contorl-center)
+sudo apt-get install unity-control-center
+
+
 
 
 
