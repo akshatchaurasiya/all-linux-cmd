@@ -159,6 +159,13 @@ sudo chmod -R 777 /var/www/html/tafe41/
 
 
 
+/////////////////////// for install all php extensions
+sudo apt-get install php8.0-*
+
+
+
+
+
 
 ///////////////////////// for run cron in cmd
 
